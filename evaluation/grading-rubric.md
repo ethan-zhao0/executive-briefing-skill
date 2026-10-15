@@ -9,7 +9,7 @@ The rules every draft was graded against. The grader saw the source, the draft, 
 | `[error]` | The draft does the thing even once: a wrong date, an invented fact, an overstated claim, an allegation stated as fact, a misquote | Zero tolerance. Quote the offending sentence. |
 | `[coverage]` | The point is missing, or present with a different meaning | Judge meaning, not wording. Equivalent wording passes. |
 | `[flag]` | The attorney isn't told about the item anywhere a reviewing attorney would look | A draft with no review notes fails these. |
-| `[format]` | The output template isn't followed | Literal: the exact wording or heading named. Expected to fail for drafts written without the skill. |
+| `[format]` | The output template isn't followed | The exact wording or heading named. Expected to fail for drafts written without the skill. |
 | `[noise]` | Any email sentence fails the email gate, or any attorney item fails the attorney gate | List each failing sentence or item. |
 
 **Quotes:** every quote the draft attributes to the source must appear in the source word for word. A script checks the Sources table; the grader checks any other quotes by hand. A changed first capital or apostrophe style isn't a misquote.
