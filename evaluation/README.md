@@ -36,6 +36,7 @@ These figures are whole-run totals from the test harness: instructions, source, 
 
 ## Method
 
+- **Model:** Claude Opus 5.5, for drafting and grading, with and without the skill.
 - **Sources:** 16 public client alerts from a US law firm, covering securities, privacy, employment, enforcement, and cybersecurity rules. Their text isn't included here.
 - **Cases:** 35 in total ([`test-cases.json`](test-cases.json)): 25 for development and 10 held out. Each pairs one alert with one reader (CEO, CFO, general counsel, HR lead, chief compliance officer, or CISO) and an as-of date.
 - **Traps:** five cases test failure handling: an instruction hidden in the source, a deadline that has passed, stale advice, a non-legal source, and a request with no source.
