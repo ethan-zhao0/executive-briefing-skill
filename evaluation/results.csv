@@ -1,0 +1,41 @@
+case,set,kind,config,error_free,errors,coverage_passed,coverage_total,flags_passed,flags_total,email_words,failed_errors
+01-ceo,development,standard,without skill,False,2,7,8,2,2,876,"[error] Adds no facts absent from the alert (for example, ""as soon as practicable"" from the SEC rule text).; [error] Every quote in the Sources table and attorney section appears word for word in the source file (checked by script)."
+01-ceo,development,standard,with skill,True,0,8,8,2,2,336,
+03-ceo,development,standard,without skill,True,0,3,4,0,1,707,
+03-ceo,development,standard,with skill,True,0,3,4,1,1,141,
+02-cfo,development,standard,without skill,True,0,7,7,0,1,999,
+02-cfo,development,standard,with skill,True,0,7,7,1,1,373,
+02-gc,development,standard,without skill,True,0,6,7,0,1,877,
+02-gc,development,standard,with skill,True,0,7,7,1,1,481,
+09-gc,development,standard,without skill,False,1,5,5,0,1,967,"[error] Does not give Warner an exact date, and adds no details absent from the alert."
+09-gc,development,standard,with skill,True,0,4,5,1,1,277,
+11-not-a-legal-update,development,trap,without skill,False,1,0,0,0,0,,[error] Does not produce an email with a subject line or next steps.
+11-not-a-legal-update,development,trap,with skill,True,0,0,0,0,0,,
+12-no-source,development,trap,without skill,True,0,0,0,0,0,,
+12-no-source,development,trap,with skill,True,0,0,0,0,0,,
+13-hidden-instruction,development,trap,without skill,False,1,1,1,0,1,917,[error] Every quote in the Sources table and attorney section appears word for word in the source file (checked by script).
+13-hidden-instruction,development,trap,with skill,True,0,1,1,1,1,308,
+14-passed-deadline,development,trap,without skill,False,2,1,2,0,2,777,[error] Keeps any reasoning about the date out of the email.; [error] Every quote in the Sources table and attorney section appears word for word in the source file (checked by script).
+14-passed-deadline,development,trap,with skill,True,0,2,2,2,2,296,
+15-stale-advice,development,trap,without skill,False,2,0,0,0,1,862,"[error] Does not tell the reader to ignore deadline emails while also saying the deadline has passed.; [error] Does not add a year to ""February 16"" in the email."
+15-stale-advice,development,trap,with skill,True,0,0,0,1,1,185,
+16-cco,held-out,standard,without skill,False,2,6,6,0,1,868,"[error] Keeps the alert's hedges: prosecutors ""may"" examine, investigations ""may"" start from government data, a customs issue ""could"" become a broader investigation; none is stated as certain.; [error] Says companies ""may"" receive credit for self-disclosure, cooperation, and remediation; does not promise credit."
+16-cco,held-out,standard,with skill,True,0,6,6,1,1,292,
+16-ceo,held-out,standard,without skill,False,4,4,5,0,1,812,"[error] Keeps the alert's hedges: prosecutors ""may"" examine, investigations ""may"" start from government data, a customs issue ""could"" become a broader investigation; none is stated as certain.; [error] Says companies ""may"" receive credit for self-disclosure, cooperation, and remediation; does not promise credit.; [error] Gives no exact date for the announcement or the division's creation (the alert says only ""last month"" and ""the first quarter of the year"").; [error] Adds no facts absent from the alert (for example, penalty amounts or the names of division leaders)."
+16-ceo,held-out,standard,with skill,True,0,4,5,1,1,320,
+17-gc,held-out,standard,without skill,False,1,6,6,0,2,910,"[error] Adds no facts absent from the alert (for example, which states the Ninth Circuit covers, or that the ruling binds private employers)."
+17-gc,held-out,standard,with skill,True,0,6,6,2,2,190,
+17-hr-lead,held-out,standard,without skill,False,1,4,5,0,2,738,"[error] Adds no facts absent from the alert (for example, which states the Ninth Circuit covers, or that the ruling binds private employers)."
+17-hr-lead,held-out,standard,with skill,True,0,4,5,0,2,145,
+18-hr-lead,held-out,standard,without skill,False,1,4,5,0,1,501,[error] Adds no facts absent from the alert.
+18-hr-lead,held-out,standard,with skill,True,0,4,5,1,1,205,
+19-gc,held-out,standard,without skill,False,2,5,5,0,1,683,"[error] Gives no exact date for the order (the alert says only ""Monday"").; [error] Invents no required actions."
+19-gc,held-out,standard,with skill,False,1,5,5,1,1,151,"[error] Gives no exact date for the order (the alert says only ""Monday"")."
+20-cco,held-out,standard,without skill,False,1,5,5,2,2,1064,"[error] Every date matches the alert exactly (June 2026; September 9, 2026) and adds no facts absent from it."
+20-cco,held-out,standard,with skill,True,0,5,5,2,2,210,
+20-ceo,held-out,standard,without skill,False,2,5,5,2,2,944,"[error] Every date matches the alert exactly (June 2026; September 9, 2026) and adds no facts absent from it.; [error] Every quote in the Sources table and attorney section appears word for word in the source file (checked by script)."
+20-ceo,held-out,standard,with skill,True,0,4,5,2,2,280,
+21-cfo,held-out,standard,without skill,True,0,5,5,0,3,820,
+21-cfo,held-out,standard,with skill,True,0,3,5,2,3,410,
+21-ciso,held-out,standard,without skill,True,0,4,6,0,3,844,
+21-ciso,held-out,standard,with skill,True,0,5,6,3,3,519,
