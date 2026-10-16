@@ -4,7 +4,9 @@ Updated October 2026
 
 Executive Briefing turns a legal update into a short email for one client executive, with notes on what to check before you send it. It drafts; you review, edit, and send. Treat every draft as a first draft.
 
-**Use it for** a client alert, ruling, or agency action. (Local notes should work but haven’t been tested yet.) **Don't use it for** legal research, court filings, or anything sent without your review. It works only from the source you give it.
+**Use it for** a client alert, ruling, or agency action. (Local notes should work but haven’t been tested yet.)
+
+**Don't use it for** legal research, court filings, or anything sent without your review. It works only from the source you give it.
 
 ## Ask for a briefing
 
@@ -46,4 +48,4 @@ To change the draft, reply in plain words, such as "shorter" or "the client is u
 
 ## Help us improve it
 
-For each briefing in the pilot, note how long it took to get a sendable email, every edit you made, anything you'd cut, and any error you caught. Send your notes to ethanyhzhao@gmail.com.
+If you try it, note how long it took to get a sendable email, what you edited, and any error you caught, and send your notes to ethanyhzhao@gmail.com.
