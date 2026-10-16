@@ -1,6 +1,7 @@
 # Before and after: one alert, two drafts
 
 **Request:** "Brief our General Counsel on this, as of October 14, 2026."
+
 **Source:** a law-firm client alert, *Ninth Circuit allows anti-discrimination training bias claim to proceed to trial* (October 9, 2026). This was a held-out case: the alert wasn't used while building the skill.
 
 Both drafts were graded blind against the same 26 expectations. The skill draft is from the current version, v3.2.
