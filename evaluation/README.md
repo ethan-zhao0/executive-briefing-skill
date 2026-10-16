@@ -79,6 +79,7 @@ Each choice below picked one behavior over a tempting alternative.
 **The source over what the model knows.** The skill uses nothing outside the source, even true facts, so the attorney can check every sentence against one document. Without the skill, Claude added outside facts and dropped hedges: 23 error checks failed across 20 cases, against 1 with the skill.
 
 **Ask instead of assuming.** When coverage depends on a client fact the skill doesn't have, it writes "This applies to you if…" and asks the attorney under "Add if you know." An earlier version tried to tailor more to each role by inferring what the reader needs. It showed no measurable gain (9 of 11 role checks vs 8 of 11), so the skill leaves client facts to the attorney, and later to a CRM connection.
+
 ## Limits
 
 - One run per case. Two runs of the previous release on the same five cases differed by one coverage item of 28.
