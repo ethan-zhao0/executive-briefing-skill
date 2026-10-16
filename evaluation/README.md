@@ -74,7 +74,7 @@ Each choice below picked one behavior over a tempting alternative.
 
 **Accuracy over brevity.** v1 aimed for 150–200 words. v2 dropped word targets. A sentence stays only if the client would be worse off without it, and deadlines, amounts, hedges, and who's covered can never be cut. Short is a result, not a rule. The emails still came out at a third of plain Claude's length.
 
-**Coverage over polish.** A layout-only rewrite of the skill (v3.3) made the skill easier to read. However, during the test it also dropped 3 key points. The less polished version was kept, since accurate information coverage is more important than the presentation of the skill itself.
+**Coverage over polish.** A layout-only rewrite of the skill made the skill easier to read. However, during the test it also dropped 3 key points. The less polished version was kept, since accurate information coverage is more important than the presentation of the skill itself.
 
 **The source over what the model knows.** The skill uses nothing outside the source, even true facts, so the attorney can check every sentence against one document. Without the skill, Claude added outside facts and dropped hedges: 23 error checks failed across 20 cases, against 1 with the skill.
 
